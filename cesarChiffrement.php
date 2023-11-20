@@ -68,6 +68,12 @@ function dechiffrementCesar($texte, $decalage)
 
     return $resultat;
 }
+function simpleDechiffrement($texte, $decalage)
+{
+    // dechiffrement  = sens inverse du chiffrement
+    // example : chiffrement avec A+3, dechiiffrement donne A+3 - 3
+    return chiffrementCesar($texte, -$decalage);
+}
 
 // Exemples d'utilisations
 // dechiffrement
