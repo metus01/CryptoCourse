@@ -34,11 +34,11 @@ function chiffrementCesar($texte, $decalage) {
 }
 
 // Exemple d'utilisation
-$texteOriginal = "Bonjour, comment ça va ?";
+$texteOriginal = "Vive le monde du code !";
 $decalage = 3;
 $texteChiffre = chiffrementCesar($texteOriginal, $decalage);
 
-echo "Texte original: $texteOriginal<br>";
+echo "Texte original: $texteOriginal";
 echo "Texte chiffré: $texteChiffre";
 
 ?>
